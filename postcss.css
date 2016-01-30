@@ -1,0 +1,39 @@
+body {
+	background: #523825 url(postbg.png) center repeat-y;
+}
+
+a:link {color: #4f6948;}
+a:visited {color: #4f6948;}
+a:hover{color: #7ba270;}
+a:active{color: #4f6948;}
+b { color: #7ba270; font-weight: bold;}
+
+table, td {
+	border: 0px solid #abbc95;
+	color: #523825;
+}
+
+table.newtopic{
+	border: 0px;
+	color: #523825
+}
+
+table.inner { border: 1px solid }
+table.reply { border: 1px solid; background-color: #b2c094;}
+
+
+th{
+	background-color: #f3e0ab;
+}
+
+p.topic {
+	font-size: 45px;
+	color: #495c21;
+	text-align: center;
+}
+
+p.reply {
+	font-size: 30px;
+	color: #495c21;
+	text-align: center;
+}
