@@ -1,0 +1,18 @@
+body {
+	background: #523825 url(mainbg.png) bottom left no-repeat fixed;
+}
+
+a:link {color: #4f6948;}
+a:visited {color: #4f6948;}
+a:hover{color: #7ba270;}
+a:active{color: #4f6948;}
+
+table, td {
+	border: 1px solid #abbc95;
+	background-color: #e1efc1;
+	color: #523825;
+}
+
+th.header {
+	background-color: #f3e0ab;
+}
