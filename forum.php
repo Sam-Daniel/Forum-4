@@ -3,7 +3,7 @@
 $dbhost = "orion.csl.mtu.edu";
 $dbuser = 'grader';
 $dbpass = 'grader';
-$conn = mysql_connect($dbhost, $dbuser, $dbpass);
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {
   die('Could not connect: ' . mysql_error());
