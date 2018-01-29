@@ -1,8 +1,8 @@
 <?php
-$host = "orion.csl.mtu.edu"; // Host name
-$username = "grader"; // Mysql username
-$password = "grader"; // Mysql password
-$db_name = "apmitche"; // Database name
+$host = "sql12.freesqldatabase.com"; // Host name
+$username = "sql12217715"; // Mysql username
+$password = "MG2bJwy7ar"; // Mysql password
+$db_name = "sql12217715"; // Database name
 $tbl_name = "forum_question"; // Table name
                             
 // Connect to server and select databse.
