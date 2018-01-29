@@ -7,7 +7,7 @@ $tbl_name = "forum_question"; // Table name
                             
 // Connect to server and select databse.
 $con = mysqli_connect or die ( "cannot connect" );
-mysql_select_db ( "$db_name" ) or die ( "cannot select DB" );
+mysqli_select_db ( "$db_name" ) or die ( "cannot select DB" );
 
 $sql = "SELECT * FROM $tbl_name ORDER BY id DESC";
 // OREDER BY id DESC is order result by descending
