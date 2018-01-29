@@ -1,13 +1,7 @@
 <?php
-$host = "sql12.freesqldatabase.com"; // Host name
-$username = "sql12217715"; // Mysql username
-$password = "MG2bJwy7ar"; // Mysql password
-$db_name = "sql12217715"; // Database name
-$tbl_name = "forum_question"; // Table name
-                            
-// Connect to server and select databse.
-$con = mysqli_connect or die ( "cannot connect" );
-mysqli_select_db ( "$db_name" ) or die ( "cannot select DB" );
+$con=mysqli_connect("sql12.freesqldatabase.com","sql12217715","MG2bJwy7ar","sql12217715");
+// Check connection
+if (mysqli_connect_errno())
 
 $sql = "SELECT * FROM $tbl_name ORDER BY id DESC";
 // OREDER BY id DESC is order result by descending
