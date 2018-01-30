@@ -1,7 +1,9 @@
 <?php
-$con=mysqli_connect("sql12.freesqldatabase.com","sql12217715","MG2bJwy7ar","sql12217715");
-// Check connection
-if (mysqli_connect_errno())
+$host = "orion.csl.mtu.edu"; // Host name
+$username = "grader"; // Mysql username
+$password = "grader"; // Mysql password
+$db_name = "apmitche"; // Database name
+$tbl_name = "forum_question"; // Table name
 
 $sql = "SELECT * FROM $tbl_name ORDER BY id DESC";
 // OREDER BY id DESC is order result by descending
